@@ -13,9 +13,21 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Font Awsome-->
+  <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet'>
+  
+
+  <!-- Google Additional fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <!-- other scripts-->
+  <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +38,10 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!--Additional costume css for services part -->
+  <link href="assets/css/costume.css" rel="stylesheet">
+
 
 </head>
 
@@ -81,14 +97,14 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p><?php echo $who_am_I; ?></p>
+          <p>iam a developer as well as a designer</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/this.jpg" class="img-fluid" alt="sorry din't load">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <div class="col-lg-8 pt-4 pt-lg-0 content1" data-aos="fade-left">
             <h3>UI Designer &amp; Web Developer.</h3>
             <p class="fst-italic">
                 I have experience in web development as well as photoshop design for about 3+ years now, I make sure to always provide the quality results services to the costumers
@@ -107,7 +123,7 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>hassanmdala52@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span><?php echo $status; ?></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span></span></li>
                 </ul>
               </div>
             </div>
@@ -458,102 +474,114 @@
           <h2>Services</h2>
           <p>we do offer the following services</p>
         </div>
+      
+          <div class="d-lg-flex">
+              <div class="d-md-flex align-items-center mb-lg-0 mb-md-5  aos-init aos-animate">
+                  <div class="col1 me-md-4 mb-md-0 mb-5">
+                      <div class="card pb-4"> <span class="fab"><img src="assets/img/try.png"></span>
+                          <p class="h4 pt-4"><a href="psd-html-form.html">PSD TO HTML CONVERSION</a></p>
+                          <p class="p1 text-muted"> We can create a static website from a client's given psd, xd, figma, sketch or we can suggest platforms website they can download web templates <a href="psd-html-form.html"></p><span class="fas fa-arrow-right"></a></span>
+                      </div>
+                  </div>
+                  <div class="col2 me-md-4 mb-md-0 mb-5 aos-init aos-animate">
+                      <div class="card pb-4"> <span><img src="assets/img/Wp.svg"></span>
+                          <p class="h4 pt-4"><a href="static-to-wordpress-form.html">STATIC HTML  WORDPRESS CONVERSION</a></p>
+                          <p class="p1 text-muted">We do converstion to wordpress for a given static Html template, incuclusion we provide user-freindly advance costume fields(ACF) for dynamic wordpress editing.<a href="static-to-wordpress-form.html"></p><span class="fas fa-arrow-right"></a></span>
+                      </div>
+                  </div>
+                  <div class="col3 me-md-4 mb-md-0 mb-5  aos-init aos-animate">
+                      <div class="card pb-4"> <span ><img src="assets/img/HTML5.svg"></span>
+                          <p class="h4 pt-4"><a href="form.html">Static Html5 website</a></p>
+                          <p class="p1 text-muted"> We can  create static Html5 websites for clients. <a href="form.html"></p><span class="fas fa-arrow-right"></a></span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col4">
+                  <div class="content"> <span class="h-6">Services</span>
+                      <p class=" h2 mb-4">Typing services</p>
+                      <p class="text-muted mb-4">further more, we do offer document translations and conversions</p>
+                      <p><a href="#" class="btn btn-primary">Get a Quote</a></p>
+                  </div>
+              </div>
+          </div>
+      
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 " data-aos="fade-up">
-            <div class="icon" style="border: none"><img src="assets/img/try.png" class="img-fluid" alt="sorry din't load"></div>
-            <h4 class="title"><a href="psd-html-form.html">PSD TO HTML CONVERSION</a></h4>
-            <p class="description">We can create a static website from a client's given  psd, xd, figma, sketch  or we can suggest platforms website  they can download web templates</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon" style="border: none"><img src="assets/img/HTML5.svg" class="img-fluid" alt="sorry din't load"> </div>
-            <h4 class="title"><a href="form.html">Static Html5 website</a></h4>
-            <p class="description">We can create we create static Html5 websites for clients.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon" style="border: none"><img src="assets/img/try02.png" class="img-fluid" alt="sorry din't load"> </div>
-            <h4 class="title"><a href="plaformerGame-assets-form.html">PLATFORMER GAME ASSETS</a></h4>
-            <p class="description">We can create game assets including game user-interfaces</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon" style="border: none"><img src="assets/img/try03.png" class="img-fluid" alt="sorry din't load"></div>
-            <h4 class="title"><a href="static-to-wordpress-form.html">STATIC HTML TO WORDPRESS CONVERSION</a></h4>
-            <p class="description">We  do converstion to wordpress for a given static Html template, incuclusion we provide user-freindly advance costume fields(ACF) for dynamic wordpress editing.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-keyboard"></i></div>
-            <h4 class="title"><a href="">TYPING..</a></h4>
-            <p class="description">We do content typing and other document conversions  like img to text, ptt to pdf and other  document conversion</p>
-          </div>
-        </div>
 
       </div>
     </section><!-- End Services Section -->
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Stil have questions?, let's get intouch, just fill in the form below and hit the submit button.</p>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>1059 street, Istanbul , Turkey</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>hassanmdala52@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+90 552 379 3609</p>
-              </div>
-<!--you actually have another task to finish in the other task you will have to change the interface of the iframe and put your own -->
-<!--NOW THAT EVERYTHING IS NOT KNOW YOU HAVE THE RIGHT TO CHANGE THE CODE BEFORE THE OWN WHO SHOULD REALLY DO THAT GOES OF THE TRACK.sk to finish in the other task you will have to change the interface of the iframe and put your own -->
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+    <!-- partial:index.partial.html -->
+    <section id="contact">
+      <h5 class="section-header">contact</h5>
+      <div class="contact-wrapper">
+     
+      <!-- Left contact page --> 
+        
+        <form id="contact-form" class="form-horizontal" role="form">
+           
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
             </div>
-
           </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-     <form method="POST"  name="contact-us" class="php-email-form" data-netlify="true">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="text-center">  <button type="submit">Send</button></div>
-            </form>
+    
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+            </div>
           </div>
-
-        </div>
-
+    
+          <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+          
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+            </div>
+          
+          </button>
+          
+        </form>
+        
+      <!-- Left contact page --> 
+        
+          <div class="direct-contact-container">
+    
+            <ul class="contact-list">
+              <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Istanbul, Turkey</span></i></li>
+              
+              <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="#" title="Give me a call">(+90) 552-379-3609</a></span></i></li>
+              
+              <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="#" title="Send me an email">hassanmdala52@gmail.com</a></span></i></li>
+              
+            </ul>
+    
+            <hr>
+            <ul class="social-media-list">
+              <li><a href="https://github.com/Hassanjk" target="_blank" class="contact-icon">
+                <i class="fa fa-github" aria-hidden="false"></i></a>
+              </li>
+              <li><a href="https://codepen.io/hassanjk" target="_blank" class="contact-icon">
+                <i class="fa fa-codepen" aria-hidden="false"></i></a>
+              </li>
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-twitter" aria-hidden="false"></i></a>
+              </li>
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-instagram" aria-hidden="false"></i></a>
+              </li>       
+            </ul>
+            <hr>
+    
+            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+    
+          </div>
+        
       </div>
-    </section><!-- End Contact Section -->
+      
+    </section>
+<!-- partial -->
+    <!-- ======= End Contact Section ======= -->
+
 
   </main><!-- End #main -->
 
@@ -579,6 +607,9 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <!-- costume js-->
+  <!-- <script src="assets/vendor/fetcWp.js"></script> -->
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -590,10 +621,11 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
+  <!-- Additional js -->
+  <script src="assets/vendor/Additional_form_js/script.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
 
 </html>
-
